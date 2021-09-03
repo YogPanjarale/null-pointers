@@ -123,7 +123,7 @@ function App() {
         <LeftContainer>
           <LeftInner>
             <Heading>Welcome to RoadMappr</Heading>
-            <Subtext>Helping you find or pawe the way for others to learn whatever you want,share your roadmaps or your journy on an amazing interactive platfrom</Subtext>
+            <Subtext>Helping you find or pave the way for others to learn whatever you want,share your roadmaps or your journy on an amazing interactive platfrom</Subtext>
             <InputContainer>
               <LoginInput placeholder="example@email.com"></LoginInput>
               <LoginInput placeholder="6+ strong character"></LoginInput>
