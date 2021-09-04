@@ -106,6 +106,11 @@ const Logos = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.2s;
+
+  &:hover{
+    border: 1px solid #1F28EB;
+  }
   `
 const Line = styled.div`
   width: 33%;
