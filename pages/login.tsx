@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { ImQuotesLeft } from 'react-icons/im';
+import {useState}  from 'react'
 
 const Body = styled.div`
   display: flex;
@@ -53,7 +54,7 @@ const Subtext = styled.p`
 const InputContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 1.5rem;
   /* max-width: 25rem; */
   `
 const LoginInput = styled.input`
@@ -206,6 +207,8 @@ const Line2 = styled.div`
 `
 
 function Login() {
+
+  const [show, setShow] = useState(false)
   return (
     <div className="App">
       <Body>
@@ -213,14 +216,17 @@ function Login() {
           <LeftInner>
             <div className="account_container">
               <div className="have_an_account">Already have an account? </div>
-              <div className="sign_in">Sign in</div>
+              <div className="sign_in" onClick={() =>{
+                setShow(!show)
+              }}>Sign in</div>
             </div>
             <Heading>Welcome to RoadMappr</Heading>
             <Subtext>Helping you find or pave the way for others to learn whatever you want,share your roadmaps or your journey on an amazing interactive platfrom</Subtext>
             <InputContainer>
-              <LoginInput placeholder="example@email.com"></LoginInput>
+              {show === true && <LoginInput placeholder="Username"></LoginInput>}
+              {show === false && <LoginInput placeholder="example@email.com"></LoginInput>}
               <LoginInput placeholder="6+ strong character"></LoginInput>
-              <Button>Create an account</Button>
+              <Button>{show === false ? 'Create an account' : 'Sign in'}</Button>
             </InputContainer>
             <OptionsContainer>
               <Line> </Line>
