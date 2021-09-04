@@ -1,5 +1,6 @@
-// import './index.css'
 import styled from 'styled-components';
+import ImQuotesLeft from 'react-icons/im';
+
 const Body = styled.div`
   display: flex;
   @media(max-width: 1250px){
@@ -29,6 +30,7 @@ const RightContainer = styled.div`
 const Heading = styled.h1`
   font-size: 3rem;
   font-weight: 600;
+  width: 118%;
 `
 const Subtext = styled.p`
   width: 90%;
@@ -116,7 +118,7 @@ const LogoImage = styled.img`
   height: 32px;
 `
 
-function App() {
+function Login() {
   return (
     <div className="App">
       <Body>
@@ -141,10 +143,13 @@ function App() {
             </LogoContainer>
           </LeftInner>
         </LeftContainer>
-        <RightContainer></RightContainer>
+        <RightContainer>
+
+          <ImQuotesLeft/>
+        </RightContainer>
       </Body>
     </div>
   );
 }
 
-export default App;
+export default Login;
