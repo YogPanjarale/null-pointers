@@ -19,7 +19,7 @@ const LeftContainer = styled.div`
   .account_container{
     display: flex;
     gap: 0.5rem;
-    margin-top: 1rem;
+    margin-top: -1rem;
   }
   .sign_in{
     color: blue;
