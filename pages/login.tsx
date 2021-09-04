@@ -1,6 +1,6 @@
-import styled from 'styled-components';
 import { ImQuotesLeft } from 'react-icons/im';
-import {useState}  from 'react'
+import React, {useState}  from 'react'
+import styled from 'styled-components'
 
 const Body = styled.div`
   display: flex;
@@ -30,9 +30,7 @@ const LeftContainer = styled.div`
   }
   `
 const LeftInner = styled.div`
-  /* border: 2px solid red; */
   max-width: 450px;
-  /* width: max-content; */
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -187,7 +185,6 @@ const ProfilePic = styled.div`
 `
 const InfoContainer = styled.div`
   display: flex;
-  /* border: 1px solid red; */
   flex-direction: column;
   justify-content: space-around;
   margin-right: 5rem;
@@ -210,7 +207,6 @@ const Line2 = styled.div`
   width: 2px;
   height: 60%;
 `
-
 function Login() {
 
   const [show, setShow] = useState(false)
