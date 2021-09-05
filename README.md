@@ -5,8 +5,8 @@ Roadmappr
 ## About the Project
 
 So basically  a social media platfrom
-where people  make and share roadmaps
-its a graph type thing
+where people  share and make roadmaps , decicion trees which will help people decide where to start
+also people share recources
 
 ## Technologies used
 
@@ -29,4 +29,6 @@ nothing done yet
 only login and signup
 
 ## Screenshots (Mandatory)
+![image](https://user-images.githubusercontent.com/64301340/132126563-c12e02b3-8c7e-4a64-8a2f-657f957aeb2d.png)
+![image](https://user-images.githubusercontent.com/64301340/132126574-89662c03-9a58-4f36-88a0-a08811ea7b20.png)
 
