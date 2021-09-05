@@ -24,6 +24,10 @@ Nextjs, react,nodejs,firebase, styles-components
 
 ## Video Demo (Mandatory)
 
+
+https://cdn.discordapp.com/attachments/883274518779543583/884055976884445215/2021-09-05_17-57-49.mp4
+
+https://cdn.discordapp.com/attachments/883274518779543583/884055976884445215/2021-09-05_17-57-49.mp4
 sorry no video demo
 nothing done yet
 only login and signup
