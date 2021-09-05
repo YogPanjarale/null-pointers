@@ -1,11 +1,14 @@
 import { useRouter } from "next/router";
 import styled from 'styled-components'
 import { Button, Navbar, Container, Logo, Container2, ProfilePic, ProfileContainer, MainPic, UserInfoContainer, Username, UserInfo,FollowButton } from "./Navbar";
-
-
+import {signOut,getAuth} from 'firebase/auth'
+import {app} from '../../utils/firebase'
 const Index = () => {
 	const router = useRouter();
 	const { username } = router.query;
+	const logout = () => {
+		signOut(getAuth(app))
+	}
 	return(
 		<>
 		<Navbar>
@@ -19,6 +22,7 @@ const Index = () => {
 			<Container2>
 				<ProfilePic></ProfilePic>
 				<Button>Upload</Button>
+				<Button onClick={logout}>Logout</Button>
 			</Container2>
 
 		</Navbar>
