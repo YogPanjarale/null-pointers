@@ -1,0 +1,48 @@
+{
+    "title": "Start",
+    "description": "",
+    "options": [
+        "Introversion",
+        "Extroversion"
+    ],
+    "children": [
+        {
+            "title": "I",
+            "description": "",
+            "options": [
+                "Intiution",
+                "Sensing"
+            ],
+            "children": [
+                {
+                    "title": "IN",
+                    "description": "",
+                    "options": [
+                        "Thinking",
+                        "Feeling"
+                    ],
+                    "children": [
+                        {
+                            "title": "INT",
+                            "description": "",
+                            "options": [
+                                "Judgement",
+                                "Perception"
+                            ],
+                            "children": [
+                                {
+                                    "title": "INTJ",
+                                    "description": "INFJ: Author\nFocus on possibilities.  Place emphasis on values and come to decisions easily.  They have a strong drive to contribute to the welfare of others.  1% of population."
+                                },
+                                {
+                                    "title": "INFP",
+                                    "description": "INFP: Questor\nPresent a calm and pleasant face to the world.  Although they seem reserved, they are actually very idealistic and care passionately about a few special people or a cause.  1% of the population."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
