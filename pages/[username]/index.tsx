@@ -112,7 +112,7 @@ const Index = () => {
 			<MainPic></MainPic>
 			<UserInfoContainer>
 				<Username>Krishna</Username>
-				<UserInfo>Hello I'm a frontend developers :)</UserInfo>
+				<UserInfo>Hello I &apos; m a frontend developers :)</UserInfo>
 				<FollowButton>+ Follow</FollowButton>
 			</UserInfoContainer>
 		</ProfileContainer>
