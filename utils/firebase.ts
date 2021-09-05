@@ -23,4 +23,4 @@ if (getApps().length<1) {
   const app = initializeApp(firebaseConfig);
 }
 export const app = getApp();
-const analytics = getAnalytics(app);
+export const analytics = getAnalytics(app);
